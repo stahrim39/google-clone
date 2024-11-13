@@ -1,0 +1,177 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    /* flex-direction: end ; */
+    padding: 15px;
+    
+}
+
+header div{
+    width: 1300px;
+    cursor: pointer;
+    
+}
+
+header img{
+    padding-top: 6.5px;
+}
+
+header span{
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+}
+
+.second-span {
+    margin-left: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   width: 100%;
+   height: 175px; 
+   padding-top: 220px;
+    
+}
+
+.navbar{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    width: 900px;
+    padding-left: 650px;
+}
+
+form {
+    border: 1px solid #dfe1e5;
+    border-radius: 25px;
+    display: flex;
+    height: 45px;
+   
+}
+
+form input{
+    width: 900px;
+    border: 0;
+    height: 100%;
+    border-radius: 25px 0 0 25px ;
+    
+}
+
+.form {
+    padding: 15px;
+} 
+
+.form img{
+    padding-bottom: 3px;
+}
+
+ .form i{
+    color:#dfe1e5;
+}
+
+.button{
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    margin-left: 600px;
+    
+}
+
+button{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.two{
+    margin-left: 70px;
+    
+}
+
+#SIvCob{
+    margin-left: 550px;
+    color: #3c4043 ;
+    font-size: 14px;
+}
+
+#SIvCob a{
+    margin-left: 5px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center align the content */
+   
+    padding: 10px 20px;
+    background-color: #f2f2f2;
+    font-size: 16px;
+    color: black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  footer div:first-child {
+    margin-right: auto;
+    margin-bottom: 10px; /* Add space below the "India" div */
+
+  }
+  
+  footer div:last-child {
+    display: flex;
+    
+    gap: 15px; /* Space between each section in the links div */
+  }
+  
+  footer span {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;  
+    gap: 10px; /* Space between each anchor tag */
+  }
+  
+  footer a {
+    text-decoration: none;
+    color:black;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+
+
+  .second{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  
